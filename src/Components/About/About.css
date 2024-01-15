@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.about{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #171717; 
+    cursor: none;
+    /* transition: all 1s ease-in-out ; */
+}
+.about #play{
+    /* padding: 3vw 1vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vw;
+    width: 7vw;
+    background-color: black;
+    color: white;
+    font-size: 1.3vw;
+    position: fixed;
+    text-transform: uppercase;
+    font-family: 'Outfit',sans-serif;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+    z-index: 99;
+    cursor: none;
+    text-decoration: none;
+}
+.about #play {
+    text-decoration: none;
+    color: #EDEDED;
+    cursor: pointer;
+    cursor: none;
+    font-size: 1vw;
+}
+.about #play a label{
+    text-decoration: none;
+    cursor: pointer;
+    cursor: none;
+}
+.about .quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 65vh;
+    width: 90%;
+    margin-top: 8vw;
+    /* background-color: #8C8C73; */
+    overflow: hidden;
+
+}
+.about .quote span{
+    /* background-color: red; */
+    margin-bottom: 0.5vh;
+    width: 85%;
+    overflow: hidden;
+}
+.about .quote h2{
+    position: relative;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 5vw;
+    letter-spacing: -2px;
+    font-weight: 500;
+    width: 100%;
+    color: #171717;
+}
+.about .quote img{
+    position: absolute;
+    height: 5vw;
+}
+.about .quote .leftComma{
+    top: 10%;
+    left: 7%;
+}
+.about .quote .rightComma{
+    bottom: 10%;
+    right: 7%;
+}
+
+.about .about-me{
+    height: 80vh;
+    width: 90%;
+    margin-top: 12vw;
+    /* background-color: #8C8C73; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5vw 2vw;
+    position: relative;
+    margin-bottom: 5vw;
+}
+.about-me .aboutHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 18vh;
+    width: 70%;
+    /* background-color: red; */
+    margin-bottom: 4.5vw;
+    overflow: hidden;
+}
+.about-me .aboutHeading h2{
+    font-size: 8vw;
+    font-weight: 800;
+    color: #797952;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-me span{
+    height: 3.5vw;
+    width: 95%;
+    overflow: hidden;
+    /* background-color: red; */
+    flex-shrink:unset;
+    margin-bottom: 0.1vw;
+}
+.about-me h4{
+    font-size: 2.8vw;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    color: #171717;
+}
+
+@media (max-width : 480px){
+    .about{
+        height: 100vh;
+    }
+    .about .quote{
+        height: 400px;
+        width: 100%;
+        margin-top: 8vw;
+        /* background-color: #8C8C73; */
+        overflow: hidden;
+    }
+    .about #play{
+        display: none;
+    }
+    .about .quote span{
+        /* background-color: red; */
+        margin-bottom: 0vh;
+        width:95%;
+        padding-bottom: 5px;
+    }
+    .about .quote span:nth-child(2) h2{
+        line-height: 7vw;
+    }
+    .about .quote h2{
+        font-size: 6vw;
+        line-height: 5vw;
+        letter-spacing: 0px;
+        width: 100%;
+        color: #171717;
+        /* background-color: red; */
+    }
+    .about .quote img{
+        height: 8vw;
+    }
+    .about .quote .leftComma{
+        top: 10%;
+        left: 3%;
+    }
+    .about .quote .rightComma{
+        bottom: 12%;
+        right: 7%;
+    }
+    
+    .about .about-me{
+        height: 40vh;
+        width: 100%;
+        margin-top: 20vw;
+        /* background-color: #8C8C73; */
+    }
+    .about-me .aboutHeading{
+        height: 4.2vh;
+        width: 70%;
+        /* background-color: red; */
+        margin-bottom: 6vw;
+    }
+    .about-me .aboutHeading h2{
+        font-size: 9vw;
+    }
+    .about-me span{
+        height: 5vw;
+        width: 99%;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .about-me h4{
+        font-size: 3.3vw;
+        width: 100%;
+        color: #171717;
+    }
+}
+
+
+@media(min-width: 480px) and (max-width:768px){
+    .about{
+        min-height: 105vh;
+        padding-bottom: 8vw;
+    }
+    .about .quote{
+        max-height: 300px;
+        width: 100%;
+        /* background-color: #8C8C73; */
+    }
+    .about #play{
+        display: none;
+    }
+    .about .quote span{
+        /* background-color: red; */
+        margin-bottom: 0vh;
+        width:90%;
+        padding-bottom: 5px;
+    }
+    .about .quote span:nth-child(2) h2{
+        line-height: 7vw;
+    }
+    .about .quote h2{
+        font-size: 4.8vw;
+        line-height: 5vw;
+        letter-spacing: 0px;
+        width: 100%;
+        /* background-color: red; */
+    }
+    .about .quote img{
+        height: 8vw;
+    }
+    .about .quote .leftComma{
+        top: 2%;
+        left: 1%;
+    }
+    .about .quote .rightComma{
+        bottom: 2%;
+        right: 1%;
+    }
+    
+    .about .about-me{
+        height: 40vh;
+        width: 100%;
+        margin-top: 22vw;
+        /* background-color: #8C8C73; */
+    }
+    .about-me .aboutHeading{
+        height: 6vh;
+        width: 60%;
+        /* background-color: red; */
+        margin-bottom: 6vw;
+    }
+    .about-me .aboutHeading h2{
+        font-size: 9vw;
+    }
+    .about-me span{
+        height: 5vw;
+        width: 99%;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .about-me h4{
+        font-size: 3.3vw;
+        width: 100%;
+        color: #171717;
+        letter-spacing: -0.05vw;
+    }
+}
+@media(min-width: 769px) and (max-width:1024px){
+    .about{
+        min-height: 145vh;
+    }
+    .about .quote{
+        max-height: 350px;
+        width: 96%;
+        /* background-color: #8C8C73; */
+    }
+    .about #play{
+        display: none;
+    }
+    .about .quote span{
+        /* background-color: red; */
+        margin-bottom: 0vh;
+        width:92%;
+        padding-bottom: 5px;
+    }
+    .about .quote span:nth-child(2) h2{
+        line-height: 7vw;
+    }
+    .about .quote h2{
+        font-size: 4.2vw;
+        line-height: 4vw;
+        letter-spacing: 0px;
+        width: 100%;
+        /* background-color: red; */
+    }
+    .about .quote img{
+        height: 6vw;
+    }
+    .about .quote .leftComma{
+        top: 2%;
+        left: 5%;
+    }
+    .about .quote .rightComma{
+        bottom: 2%;
+        right: 5%;
+    }
+    
+    .about .about-me{
+        height: 40vh;
+        width: 100%;
+        margin-top: 20vw;
+        /* background-color: #8C8C73; */
+    }
+    .about-me .aboutHeading{
+        height: 14vh;
+        width: 60%;
+        /* background-color: red; */
+        margin-bottom: 6vw;
+    }
+    .about-me .aboutHeading h2{
+        font-size: 8vw;
+    }
+    .about-me span{
+        height: 5.5vw;
+        width: 99%;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .about-me h4{
+        font-size: 3vw;
+        width: 100%;
+        color: #171717;
+        letter-spacing: -0.05vw;
+    }
+}
+

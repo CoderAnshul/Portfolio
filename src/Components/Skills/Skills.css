@@ -1,0 +1,409 @@
+.skills{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.skillHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 18vh;
+    width: 40%;
+    /* background-color: red; */
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    overflow: hidden;
+}
+.skillHeading h2{
+    font-size: 8vw;
+    font-weight: 800;
+    color: #797952;
+    text-transform: uppercase;
+}
+.skillContainer{
+    height: 110vh;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 5vw;
+    /* overflow: hidden;
+    background-color: pink; */
+}
+.skillContainer .skillContainer-one{
+    display: flex;
+    height: 50%;
+    width: 94%;
+    overflow: hidden;
+
+}
+.skillContainer-one .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    gap: 2vw;
+    overflow: hidden;
+}
+.skillContainer-one .left h2{
+    font-size: 4vw;
+    color: #171717;
+}
+.skillContainer-one .left p{
+    font-size: 1.5vw;
+    color: #171717;
+    font-weight: 100;
+    opacity: 0.8;
+    width: 90%;
+}
+
+
+.skillContainer-one .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    overflow: hidden;
+}
+.skillContainer-one .right h1{
+    font-size: 4vw;
+    color: #797952;
+    margin-bottom: -10px;
+}
+
+
+
+
+.skillContainer .skillContainer-two{
+    display: flex;
+    height: 50%;
+    width: 94%;
+    overflow: hidden;
+}
+
+.skillContainer-two .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    gap: 2vw;
+}
+.skillContainer-two .left h2{
+    font-size: 4vw;
+    color: #171717;
+}
+.skillContainer-two .left p{
+    font-size: 1.5vw;
+    color: #171717;
+    font-weight: 100;
+    opacity: 0.8;
+    width: 90%;
+}
+.skillContainer-two .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 1vw;
+    gap: 2vw;
+}
+
+.skillContainer-two .right h1{
+    height: 4.1vw;
+    font-size: 4vw;
+    color: #797952;
+    line-height: 5vw;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px){
+    .skills{
+        min-height: 90vh;
+    }
+    .skillHeading{
+        height: 4.2vh;
+        /* background-color: red; */
+        margin-bottom: 18vw;
+        margin-top: 5vw;
+    }
+    .skillHeading h2{
+        font-size: 9vw;
+    }
+    .skillContainer{
+        height: 65vh;
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+    .skillContainer .skillContainer-one{
+        width: 100%;
+    }
+    .skillContainer-one .left{
+        padding: 2vw;
+    }
+    .skillContainer-one .left h2{
+        font-size: 7vw;
+    }
+    .skillContainer-one .left p{
+        font-size: 3.5vw;
+    }
+    
+    
+    .skillContainer-one .right{
+        padding: 4vw;
+    }
+    .skillContainer-one .right h1{
+        font-size: 6vw;
+        margin-bottom: 0px;
+    }
+ /* ----------------------------------------------------- */
+    
+    .skillContainer .skillContainer-two{
+        height: 50%;
+        width: 100%;
+    }
+    
+    .skillContainer-two .left{
+        padding: 2vw;
+    }
+    .skillContainer-two .left h2{
+        font-size: 7vw;
+        color: #171717;
+    }
+    .skillContainer-two .left p{
+        font-size: 3.5vw;
+    }
+    .skillContainer-two .right{
+        padding: 4vw;
+        gap: 2vw;
+    }
+    
+    .skillContainer-two .right h1{
+        font-size: 6vw;
+        line-height: 7vw;
+    }
+}
+
+@media(min-width:480px) and (max-width:768px){
+    .skills{
+        min-height: 80vh;
+        /* background-color: red; */
+    }
+    .skillHeading{
+        height: 7vh;
+        /* background-color: red; */
+        margin-bottom: 12vw;
+        margin-top: 5vw;
+    }
+    .skillHeading h2{
+        font-size: 9vw;
+    }
+    .skillContainer{
+        min-height: 80vh;
+        width: 100%;
+        margin-bottom: 10vw;
+        align-items: center;
+        gap: 12vw;
+    }
+    .skillContainer .skillContainer-one{
+        height: 40vh;
+        width: 94%;
+    }
+    .skillContainer-one .left{
+        padding: 2vw;
+    }
+    .skillContainer-one .left h2{
+        font-size: 6vw;
+    }
+    .skillContainer-one .left p{
+        font-size: 3.2vw;
+    }
+    
+    
+    .skillContainer-one .right{
+        padding: 4vw;
+    }
+    .skillContainer-one .right h1{
+        font-size: 5.8vw;
+        margin-bottom: 0px;
+    }
+ /* ----------------------------------------------------- */
+    
+    .skillContainer .skillContainer-two{
+        min-height: 45vh;
+        width: 94%;
+    }
+    
+    .skillContainer-two .left{
+        padding: 2vw;
+    }
+    .skillContainer-two .left h2{
+        font-size: 6vw;
+    }
+    .skillContainer-two .left p{
+        font-size: 3.2vw;
+    }
+    .skillContainer-two .right{
+        padding: 4vw;
+        gap: 2vw;
+    }
+    
+    .skillContainer-two .right h1{
+        font-size: 5.8vw;
+        line-height: 7vw;
+    }
+}
+
+
+@media(min-width:769px) and (max-width:1024px){
+    .skills{
+        min-height: 100vh;
+        /* background-color: red; */
+    }
+    .skillHeading{
+        height: 8vh;
+        margin-bottom: 12vw;
+        margin-top: 5vw;
+    }
+    .skillHeading h2{
+        font-size: 8vw;
+    }
+    .skillContainer{
+        min-height: 80vh;
+        width: 100%;
+        margin-bottom: 10vw;
+        align-items: center;
+        gap: 6vw;
+    }
+    .skillContainer .skillContainer-one{
+        height: 40vh;
+        width: 94%;
+    }
+    .skillContainer-one .left{
+        padding: 2vw;
+    }
+    .skillContainer-one .left h2{
+        font-size: 5vw;
+    }
+    .skillContainer-one .left p{
+        font-size: 2.4vw;
+    }
+    
+    
+    .skillContainer-one .right{
+        padding: 2vw;
+    }
+    .skillContainer-one .right h1{
+        font-size: 4.8vw;
+        margin-bottom: 0px;
+    }
+ /* ----------------------------------------------------- */
+    
+    .skillContainer .skillContainer-two{
+        height: 48vh;
+        width: 94%;
+    }
+    
+    .skillContainer-two .left{
+        padding: 2vw;
+    }
+    .skillContainer-two .left h2{
+        font-size: 5vw;
+    }
+    .skillContainer-two .left p{
+        font-size: 2.4vw;
+    }
+    .skillContainer-two .right{
+        padding: 2vw;
+        gap: 2vw;
+    }
+    
+    .skillContainer-two .right h1{
+        font-size: 4.8vw;
+        line-height: 7vw;
+    }
+}
+
+
+@media(min-width:1025px) and (max-width:1200px){
+    .skills{
+        min-height: 100vh;
+        /* background-color: red; */
+    }
+    .skillHeading{
+        height: 15vh;
+        /* background-color: red; */
+        margin-bottom: 6vw;
+        margin-top: 5vw;
+    }
+    .skillHeading h2{
+        font-size: 8vw;
+    }
+    .skillContainer{
+        height: 110vh;
+        width: 100%;
+        margin-bottom: 10vw;
+        align-items: center;
+        gap: 2vw;
+    }
+    .skillContainer .skillContainer-one{
+        height: 50vh;
+        width: 94%;
+    }
+    .skillContainer-one .left{
+        padding: 2vw;
+    }
+    .skillContainer-one .left h2{
+        font-size: 5vw;
+    }
+    .skillContainer-one .left p{
+        font-size: 1.8vw;
+    }
+    
+    
+    .skillContainer-one .right{
+        padding: 2vw;
+    }
+    .skillContainer-one .right h1{
+        font-size: 4.8vw;
+        margin-bottom: 0px;
+    }
+ /* ----------------------------------------------------- */
+    
+    .skillContainer .skillContainer-two{
+        min-height: 50vh;
+        width: 94%;
+    }
+    
+    .skillContainer-two .left{
+        padding: 2vw;
+    }
+    .skillContainer-two .left h2{
+        font-size: 5vw;
+    }
+    .skillContainer-two .left p{
+        font-size: 1.8vw;
+    }
+    .skillContainer-two .right{
+        padding: 2vw;
+        gap: 2vw;
+    }
+    
+    .skillContainer-two .right h1{
+        font-size: 4.8vw;
+        line-height: 7vw;
+    }
+}
