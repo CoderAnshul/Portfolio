@@ -12,6 +12,8 @@
 }
 .hero-section{
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -74,8 +76,9 @@
     left: 31%; */
     height: 42vw;
     position: relative;
-    left: 50%;
-    transform: translate(-50%,5%);
+    margin-bottom: -2.3%;
+    /* left: 50%;
+    transform: translate(-50%,5%); */
 
     
 }
@@ -87,9 +90,10 @@
     position: absolute;
     height: 120px;
     width: 70px;
+    left: 3%;
     /* background-color: red; */
     top: 50%;
-    transform: translate(10%,-50%);
+    transform: translate(0%,-50%);
     overflow: hidden;
 }
 .social-icon a .icon{
@@ -417,7 +421,7 @@
     }
     .hero-section .me{
         /* position: absolute; */
-        /* height: 42vw; */
+        height: 42vw;
        
     }
 }
