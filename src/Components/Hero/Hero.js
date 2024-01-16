@@ -82,13 +82,13 @@ const Hero = () => {
 
       <div className="social-icon">
         <a
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href="https://www.instagram.com/_anshul_sharma_?igsh=MWRueW91NW81dWRsMA=="
         >
           <FontAwesomeIcon className="icon" icon={faInstagram} />
         </a>
         <a
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href="https://www.linkedin.com/in/anshul-sharma-6132a6205/"
         >
           <FontAwesomeIcon className="icon" icon={faLinkedinIn} />

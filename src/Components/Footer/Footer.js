@@ -24,7 +24,7 @@ const Footer = () => {
           y:0,
           duration:1.2,
           opacity:1,
-          duration:1,
+          // duration:1,
           stagger:0.2,
           scrollTrigger:{
             trigger: " .footer-container h2",
@@ -44,7 +44,7 @@ const Footer = () => {
           y:0,
           duration:1.2,
           opacity:0.8,
-          duration:0.8,
+          // duration:0.8,
           stagger:0.1,
           scrollTrigger:{
             trigger: " .footer-container-two .left  .footerIcon",
@@ -65,7 +65,7 @@ const Footer = () => {
           duration:1.2,
           skew:0,
           opacity:1,
-          duration:0.8,
+          // duration:0.8,
           stagger:0.1,
           scrollTrigger:{
             trigger: " .footer-container-two .center",
@@ -86,7 +86,7 @@ const Footer = () => {
           duration:1.2,
           skew:0,
           opacity:1,
-          duration:0.8,
+          // duration:0.8,
           stagger:0.1,
           scrollTrigger:{
             trigger: " .footer-container-two .center",
@@ -107,7 +107,7 @@ const Footer = () => {
           duration:1.2,
           skew:0,
           opacity:1,
-          duration:0.8,
+          // duration:0.8,
           stagger:0.1,
           scrollTrigger:{
             trigger: ".footer .footer-container-three",
@@ -143,21 +143,21 @@ const Footer = () => {
 
       <div className="footer-container-two">
         <div className="left">
-          <a target="_blank" 
+          <a target="_blank" rel="noreferrer"
           href="https://www.instagram.com/_anshul_sharma_?igsh=MWRueW91NW81dWRsMA==">
             <FontAwesomeIcon className="footerIcon" icon={faInstagram} />
           </a>
 
 
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://www.linkedin.com/in/anshul-sharma-6132a6205/"
           >
             <FontAwesomeIcon className="footerIcon" icon={faLinkedinIn} />
           </a>
 
 
-          <a target="_blank"
+          <a target="_blank" rel="noreferrer"
            href="https://github.com/CoderAnshul">
             <FontAwesomeIcon className="footerIcon" icon={faGithub} />
           </a>
