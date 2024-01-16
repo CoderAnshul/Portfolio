@@ -140,7 +140,7 @@ const Project = () => {
 
             <div className="container-two">
                 <div id='img-container' className="img-container2">
-                    <a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/Sundown/"><img src={project2} alt="" /></a>
+                    <a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/Sundown/"><img loading='lazy' src={project2} alt="" /></a>
                 </div>
 
                 <div className="img-info2">
@@ -164,7 +164,7 @@ const Project = () => {
             <div className="container-three">
 
                 <div className="img-container3">
-                    <a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/Red-Store/"><img src={project3} alt="" /></a>
+                    <a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/Red-Store/"><img loading='lazy' src={project3} alt="" /></a>
                 </div>
 
                 <div className="img-info3">
@@ -191,7 +191,7 @@ const Project = () => {
 
             <div className="container-four">
                 <div id='img-container' className="img-container4">
-                    <a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/REJOUICE/"><img src={project4} alt="" /></a>
+                    <a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/REJOUICE/"><img loading='lazy' src={project4} alt="" /></a>
                 </div>
 
                 <div className="img-info4">
@@ -213,7 +213,7 @@ const Project = () => {
             </div>
 
             <div className="container-five">
-                <div id='img-container' className="img-container5"><a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/Text-Summarizer/"><img src={project5} alt="" /></a></div>
+                <div id='img-container' className="img-container5"><a target='_blank' rel="noreferrer" href="https://coderanshul.github.io/Text-Summarizer/"><img loading='lazy' src={project5} alt="" /></a></div>
 
                 <div className="img-info5">
                 <div className="tech5">
