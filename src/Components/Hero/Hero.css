@@ -65,23 +65,26 @@
     margin-top: -0.5vw;
 }
 .hero-section .me{
-    position: absolute;
+    /* position: absolute;
     height: 42vw;
-    /* height: 780px; */
-    /* object-fit: cover; */
-    /* background-color: #fff; */
     left: 50%;
     transform: translate(-50%,0%);
     z-index: 9;
     bottom: 2.3%;
-    /* left: 31%; */
+    left: 31%; */
+    height: 42vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,5%);
+
+    
 }
 .social-icon{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    position: relative;
+    position: absolute;
     height: 120px;
     width: 70px;
     /* background-color: red; */
@@ -194,7 +197,7 @@
         /* margin-left: -46.3vw; */
     }
     .hero-section .me{
-        position: absolute;
+        /* position: absolute; */
         height: 145vw;
         /* left: 5%;
         transform: translate(0%,0%); */
@@ -256,7 +259,7 @@
         margin-top: -5vw;
     }
     .hero-section .me{
-        position: absolute;
+        /* position: absolute; */
         height: 650px;
         /* left: 10%;
         transform: translate(0%,0%); */
@@ -305,7 +308,7 @@
         margin-top: -3.8vw;
     }
     .hero-section .me{
-        position: absolute;
+        /* position: absolute; */
         height: 650px;
         /* left: 25%;
         transform: translate(0%,0%); */
@@ -359,7 +362,7 @@
         margin-top: -4.2vw;
     }
     .hero-section .me{
-        position: absolute;
+        /* position: absolute; */
         height: 650px;
         /* left: 28%;
         transform: translate(0%,0%); */
@@ -413,8 +416,8 @@
         margin-top: -3.5vw;
     }
     .hero-section .me{
-        position: absolute;
-        height: 42vw;
+        /* position: absolute; */
+        /* height: 42vw; */
        
     }
 }
