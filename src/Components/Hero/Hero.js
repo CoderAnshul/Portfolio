@@ -1,10 +1,13 @@
 import React from "react";
 import "./Hero.css";
-import image from "../../Images/hero-img.png";
+import image from "../../Images/hero-img.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import gsap from "gsap";
+import { ScrollTrigger } from 'gsap/all';
 import { useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
   useEffect(() => {
@@ -23,6 +26,21 @@ const Hero = () => {
         skewY: 0,
       }
     );
+    gsap.fromTo(".hero-container",
+    {
+      y:0
+    },
+    {
+      y:-70,
+      scrollTrigger:{
+        trigger:".hero-container",
+        scroller:"body",
+        // markers:true,
+        start:"top 58%",
+        end:"top -20%",
+        scrub:1
+      }
+    })
     gsap.fromTo(
       ".social-icon a .icon",
       {

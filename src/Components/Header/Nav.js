@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState ,useEffect } from 'react';
 import copyright from '../../Images/copyright - 1.png'
+// import image from '../../Images/nav-img.png'
 // import { Link } from "react-router-dom";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -36,31 +37,56 @@ const[navOpen, setNavOpen]  = useState(false);
          duration:1.9,
          opacity:1
       })
-      // gsap.fromTo(".navbar",
-      // {
-      //    stagger:0.1
-      // },
-      // {
-      //    backgroundColor: "#171717",
-      //    duration:1,
-      //    scrollTrigger:{
-      //       trigger:".navbar",
-      //       scroller:"body",
-      //       // markers:true,
-      //       start:"top -10%",
-      //       end:"top -11%",
-      //       scrub:1
-      //    }
-      // })
+      gsap.fromTo(".bignav #right",
+      {
+         stagger:0.3
+      },
+      {
+         backgroundColor: "rgba(23,23,23)",
+         boxShadow:"5px 5px 25px rgba(23,23,23,0.9)",
+         duration:1,
+         height:"50px",
+         width:"35vw",
+         scrollTrigger:{
+            trigger:".bignav #right",
+            scroller:"body",
+            // markers:true,
+            start:"top -88%",
+            end:"top -88%",
+            scrub:1
+         }
+      })
+      gsap.fromTo(".bignav #left",
+      {
+         stagger:0.3
+      },
+      {
+         backgroundColor: "rgba(23,23,23)",
+         boxShadow:"5px 5px 25px rgba(23,23,23,0.9)",
+         duration:1,
+         height:"50px",
+         width:"15vw",
+         scrollTrigger:{
+            trigger:".bignav #left",
+            scroller:"body",
+            // markers:true,
+            start:"top -88%",
+            end:"top -88%",
+            scrub:1
+         }
+      })
       
    })
 
   return (
+   <>
+   
     <div className="nav">
          <div className="nav-container">
              <div className="navbar">
-                <div className="logo"><img src={copyright} alt="" />
-                <h1>Anshul Sharma</h1></div>
+                <div className="logo"><img src={copyright} alt="logo" />
+                <h1>Anshul Sharma</h1>
+        </div>
 
                 <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
                      <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
@@ -171,7 +197,23 @@ const[navOpen, setNavOpen]  = useState(false);
              </div>
              </div>
          </div>
+         
     </div>
+
+    <div className="bignav">
+            <div id="left">
+               <img src={copyright} alt="copyright logo" />
+               <h1>Anshul sharma</h1>
+            </div>
+            <div id="right">
+               <a href="#"><h4>Home</h4></a>
+               <a href="#Project"><h4>Work</h4></a>
+               <a href="#Skills"><h4>Skills</h4></a>
+               <a href="#Contact"><h4>Contact</h4></a>
+            </div>
+         </div>
+
+    </>
   )
 }
 

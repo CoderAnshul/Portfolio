@@ -46,13 +46,14 @@
 .hero-container span  h1{
     position: relative;
     font-size: 8.2vw;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 5vw;
     letter-spacing: -7px;
     /* margin-left: 2.7vw; */
     color: #EDEDED;
     line-height: 4.5vw;
     /* background-color: red; */
+    /* font-family: "oswald"; */
     
 }
 .hero-container span:nth-child(3) h1{
@@ -114,7 +115,7 @@
     /* background-color: red; */
     top: 50%;
     right: 3.95%;
-    transform: translate(10%,-50%);
+    transform: translate(50%,-50%);
     overflow: hidden;
     /* gap: 5px; */
 }
@@ -129,7 +130,7 @@
     padding-top: 1vw;
     height: 50%;
     width: 100%;
-    font-weight: 100;
+    font-weight: 300;
 }
 .scroll .box:nth-child(2){
     display: flex;

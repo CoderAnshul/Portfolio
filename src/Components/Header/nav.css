@@ -2,6 +2,7 @@
 
 .nav{
     position: fixed;
+    opacity: 0;
     z-index: 99;
 }
 .navbar{
@@ -205,7 +206,101 @@ ul.nav-links li a:hover:after{
     transition: all 2s cubic-bezier(0.16, 1, 0.3,1);
     text-transform: uppercase;
 }
-@media(max-width:500px){
+
+
+/* ---------------------- big nav ------------------------- */
+
+.bignav{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0 35px;
+    /* transition: all linear 0.8s; */
+    z-index: 999;
+}
+.bignav #left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 15%;
+    border-radius: 100px;
+}
+.bignav img{
+    margin-top:3px;
+    height: 2.5vh;
+    transform: rotate(0deg);
+}
+.bignav #left h1{
+    font-size: 2.5vh;
+    margin-left: 4px;
+    font-weight: 400;
+    color: #797952;
+    white-space: nowrap;
+}
+
+.bignav #right{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 1vw;
+    border-radius: 100px;
+}
+.bignav #right a{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7vh 2.7vh;
+    border: 1px solid rgba(121, 121, 82, 0.6);
+    border-radius: 40px;
+    position: relative;
+    transition: all ease 0.4s;
+    z-index: 999;
+    overflow: hidden;
+}
+.bignav #right a h4{
+    font-size: 2.2vh;
+    font-weight: 400;
+    color: #797952;
+    position: relative;
+    z-index: 999;
+    /* overflow: hidden; */
+    text-decoration: none;
+}
+.bignav #right a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #797952;;
+    left: 0;
+    bottom: -100%;
+    transition: all ease 0.4s;
+}
+.bignav #right a:hover::after{
+    bottom: 0;
+    border-radius: 0%;
+}
+.bignav #right a:hover h4{
+    color: #171717;
+    z-index: 999;
+}
+@media(max-width:480px){
+    .bignav{
+        opacity: 0;
+    }
+    .nav{
+        opacity: 1;
+    }
     .navbar{
         position: fixed;
         top: 0;
@@ -252,5 +347,32 @@ ul.nav-links li a:hover:after{
     }
     .nav-social-media ul li a{
         padding: 0 1em;
+    }
+}
+@media(min-width:480px) and (max-width:768px){
+    .nav{
+        opacity: 1;
+    }
+    .bignav{
+        opacity: 0;
+    }
+}
+@media(min-width:769px) and (max-width:1024px){
+    .bignav{
+        opacity: 0;
+    }
+    .nav{
+        opacity: 1;
+    }
+}
+@media(min-width:1600px) and (max-width:4000px){
+    .bignav #right a h4{
+        font-size: 1.8vh;
+        font-weight: 400;
+        color: #797952;
+        position: relative;
+        z-index: 999;
+        overflow: hidden;
+        text-decoration: none;
     }
 }

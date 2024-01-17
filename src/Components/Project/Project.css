@@ -91,7 +91,7 @@
     width: 19%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     position: relative;
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@
 
 .year h4{
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--fontclr);
 }
 .tech .img-tech{
@@ -109,7 +109,7 @@
     width: 80%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     margin-left: 1%;
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@
 .img-tech h4{
     font-size: 1.5vw;
     color: var(--fontclr);
-    font-weight: 100;
+    font-weight: 300;
 }
 .img-info .img-name{
     height: 5.5vh;
@@ -141,7 +141,7 @@
 }
 .imgAbout h4{
     font-size: 1.2vw;
-    font-weight: 100;
+    font-weight: 300;
     color: #EDEDED;
     /* letter-spacing: -2px; */
 }
@@ -216,7 +216,7 @@
     width: 19%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     position: relative;
     display: flex;
     align-items: center;
@@ -226,7 +226,7 @@
 
 .year2 h4{
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--fontclr);
 }
 .tech2 .img-tech2{
@@ -234,7 +234,7 @@
     width: 80%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #777952;
     margin-left: 1%;
     display: flex;
     justify-content: center;
@@ -243,7 +243,7 @@
 .img-tech2 h4{
     font-size: 1.5vw;
     color: var(--fontclr);
-    font-weight: 100;
+    font-weight: 300;
 }
 .img-info2 .img-name2{
     height: 5vh;
@@ -265,8 +265,8 @@
     /* background-color: rgb(20, 4, 7); */
 }
 .imgAbout2 h4{
-    font-size: 1.5vw;
-    font-weight: 100;
+    font-size: 1.2vw;
+    font-weight: 300;
     color: #EDEDED;
     /* letter-spacing: -2px; */
 }
@@ -324,7 +324,7 @@
     width: 19%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     position: relative;
     display: flex;
     align-items: center;
@@ -334,7 +334,7 @@
 
 .year3 h4{
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--fontclr);
 }
 .tech3 .img-tech3{
@@ -342,7 +342,7 @@
     width: 80%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     margin-left: 1%;
     display: flex;
     justify-content: center;
@@ -351,7 +351,7 @@
 .img-tech3 h4{
     font-size: 1.5vw;
     color: var(--fontclr);
-    font-weight: 100;
+    font-weight: 300;
 }
 .img-info3 .img-name3{
     height: 5vh;
@@ -362,7 +362,7 @@
 }
 .img-name3 h4{
     font-size: 2.3vw;
-    font-weight: 600;
+    font-weight:600;
     color: #EDEDED;
     letter-spacing: -2px;
     margin-top: -2px;
@@ -373,8 +373,8 @@
     /* background-color: rgb(20, 4, 7); */
 }
 .imgAbout3 h4{
-    font-size: 1.5vw;
-    font-weight: 100;
+    font-size: 1.2vw;
+    font-weight: 300;
     color: #EDEDED;
     /* letter-spacing: -2px; */
 }
@@ -456,7 +456,7 @@
     width: 19%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     position: relative;
     display: flex;
     align-items: center;
@@ -466,7 +466,7 @@
 
 .year4 h4{
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--fontclr);
 }
 .tech4 .img-tech4{
@@ -474,7 +474,7 @@
     width: 80%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     margin-left: 1%;
     display: flex;
     justify-content: center;
@@ -483,7 +483,7 @@
 .img-tech4 h4{
     font-size: 1.5vw;
     color: var(--fontclr);
-    font-weight: 100;
+    font-weight: 300;
 }
 .img-info4 .img-name4{
     height: 5vh;
@@ -505,8 +505,8 @@
     /* background-color: rgb(20, 4, 7); */
 }
 .imgAbout4 h4{
-    font-size: 1.5vw;
-    font-weight: 100;
+    font-size: 1.2vw;
+    font-weight: 300;
     color: #EDEDED;
     /* letter-spacing: -2px; */
 }
@@ -566,7 +566,7 @@
     width: 19%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     position: relative;
     display: flex;
     align-items: center;
@@ -576,7 +576,7 @@
 
 .year5 h4{
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--fontclr);
 }
 .tech5 .img-tech5{
@@ -584,7 +584,7 @@
     width: 80%;
     /* background: #171717; */
     border-radius: 50px;
-    border: 2px solid #8C8C73;
+    border: 2px solid #797952;
     margin-left: 1%;
     display: flex;
     justify-content: center;
@@ -594,7 +594,7 @@
 .img-tech5 h4{
     font-size: 1.4vw;
     color: var(--fontclr);
-    font-weight: 100;
+    font-weight: 300;
 }
 .img-info5 .img-name5{
     height: 5.5vh;
@@ -616,8 +616,8 @@
     /* background-color: rgb(20, 4, 7); */
 }
 .imgAbout5 h4{
-    font-size: 1vw;
-    font-weight: 100;
+    font-size: 1.2vw;
+    font-weight: 300;
     color: #EDEDED;
     /* letter-spacing: -2px; */
 }

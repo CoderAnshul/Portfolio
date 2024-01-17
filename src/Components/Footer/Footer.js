@@ -1,6 +1,6 @@
 import React , {useEffect} from "react";
 import "./Footer.css";
-import image from "../../Images/hero-img.png";
+import image from "../../Images/hero-img.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import gsap from 'gsap';

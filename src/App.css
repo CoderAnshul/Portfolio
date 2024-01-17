@@ -24,7 +24,7 @@ html,body{
   background-color: #797952;
   position: fixed;
   border-radius: 50%;
-  z-index: 100;
+  z-index: 1000;
   /* transition: all ease 0.1s; */
   /* mix-blend-mode: difference; */
 }
