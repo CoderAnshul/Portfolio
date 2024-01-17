@@ -206,7 +206,7 @@ const[navOpen, setNavOpen]  = useState(false);
                <h1>Anshul sharma</h1>
             </div>
             <div id="right">
-               <a href="#"><h4>Home</h4></a>
+               <a href="/"><h4>Home</h4></a>
                <a href="#Project"><h4>Work</h4></a>
                <a href="#Skills"><h4>Skills</h4></a>
                <a href="#Contact"><h4>Contact</h4></a>
