@@ -203,10 +203,10 @@ const[navOpen, setNavOpen]  = useState(false);
     <div className="bignav">
             <div id="left">
                <img src={copyright} alt="copyright logo" />
-               <h1>Anshul sharma</h1>
+               <a href="#Hero"><h1>Anshul sharma</h1></a>
             </div>
             <div id="right">
-               <a href="/"><h4>Home</h4></a>
+               <a href="#About"><h4>About</h4></a>
                <a href="#Project"><h4>Work</h4></a>
                <a href="#Skills"><h4>Skills</h4></a>
                <a href="#Contact"><h4>Contact</h4></a>

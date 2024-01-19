@@ -78,7 +78,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="hero-section">
+    <div id="Hero" className="hero-section">
       <div className="hero-container">
         {/* <span>F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>-</span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span> */}
         <span className="heroText">

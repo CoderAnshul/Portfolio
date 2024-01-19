@@ -2,11 +2,11 @@ import React,{useEffect} from 'react'
 import "./Project.css";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import project1 from "../../Images/Group-1.png"
-import project2 from "../../Images/Group-2.png"
-import project3 from "../../Images/Group-3.png"
-import project4 from "../../Images/Group-4.png"
-import project5 from "../../Images/Group-5.png"
+import project1 from "../../Images/Group-1.webp"
+import project2 from "../../Images/Group-2.webp"
+import project3 from "../../Images/Group-3.webp"
+import project4 from "../../Images/Group-4.webp"
+import project5 from "../../Images/Group-5.webp"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -40,7 +40,7 @@ const Project = () => {
           }
         })
 
-        gsap.fromTo(".container-one",
+        tl.fromTo(".container-one",
         {
             y:100,
             opacity:0
@@ -59,7 +59,7 @@ const Project = () => {
             scrub:3
           }
         })
-        gsap.fromTo(".containerPart-two",
+        tl.fromTo(".containerPart-two .container-two , .containerPart-two .container-three ",
         {
             y:100,
             opacity:0
@@ -68,17 +68,17 @@ const Project = () => {
             y:0,
           duration:0.5,
           opacity:1,
-          stagger:0.3,
+          stagger:0.1,
           scrollTrigger: {
-            trigger: " .containerPart-two",
+            trigger: " .containerPart-two .container-two , .containerPart-two .container-three",
             scroller:"body",
-            // markers:true,
+            markers:true,
             start:"top 102%",
             end:"top 95%",
             scrub:3
           }
         })
-        gsap.fromTo(".containerPart-three",
+        tl.fromTo(".containerPart-three .container-four , .containerPart-three .container-five",
         {
             y:100,
             opacity:0
@@ -87,13 +87,13 @@ const Project = () => {
             y:0,
           duration:0.5,
           opacity:1,
-          stagger:0.5,
+          stagger:0.1,
           scrollTrigger: {
-            trigger: " .containerPart-three",
+            trigger: ".containerPart-three .container-four , .containerPart-three .container-five",
             scroller:"body",
             // markers:true,
-            start:"top 98%",
-            end:"top 95%",
+            start:"top 118%",
+            end:"top 115%",
             scrub:3
           }
         })
