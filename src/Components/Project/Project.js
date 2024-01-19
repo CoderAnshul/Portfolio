@@ -72,7 +72,7 @@ const Project = () => {
           scrollTrigger: {
             trigger: " .containerPart-two .container-two , .containerPart-two .container-three",
             scroller:"body",
-            markers:true,
+            // markers:true,
             start:"top 102%",
             end:"top 95%",
             scrub:3
