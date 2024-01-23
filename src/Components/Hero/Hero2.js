@@ -52,8 +52,9 @@ const Hero2 = () => {
        y:0
     },
     {
-       y:90,
+       y:100,
        duration:1,
+       boxShadow:"0px 10px 35px rgba(23,23,23)",
        scrollTrigger:{
           trigger:" .bgcont",
           scroller:"body",
