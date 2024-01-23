@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState ,useEffect } from 'react';
-import copyright from '../../Images/copyright - 1.png'
+import copyright1 from '../../Images/copyright.png'
+import copyright2 from '../../Images/copyright - 1.png'
 // import image from '../../Images/nav-img.png'
 // import { Link } from "react-router-dom";
 import gsap from 'gsap';
@@ -75,6 +76,46 @@ const[navOpen, setNavOpen]  = useState(false);
             scrub:1
          }
       })
+
+      // --------------- 2nd nav gsap------------------
+
+      gsap.fromTo(".bignav img, .bignav #left h1",
+      {
+         y:-100,
+         opacity:0
+      },
+      {
+         y:0,
+         stagger:0.2,
+         duration:1.6,
+         opacity:1
+
+      })
+      gsap.fromTo(".bignav #right h4 ",
+      {
+         y:-100,
+         opacity:0
+      },
+      {
+         y:0,
+         stagger:0.2,
+         duration:1.6,
+         opacity:1
+
+      })
+      gsap.fromTo(".bignav #right  ",
+      {
+         y:-100,
+         opacity:0
+      },
+      {
+         y:0,
+         stagger:0.2,
+         duration:1.6,
+         opacity:1
+
+      })
+
       
    })
 
@@ -84,7 +125,7 @@ const[navOpen, setNavOpen]  = useState(false);
     <div className="nav">
          <div className="nav-container">
              <div className="navbar">
-                <div className="logo"><img src={copyright} alt="logo" />
+                <div className="logo"><img src={copyright2} alt="logo" />
                 <h1>Anshul Sharma</h1>
         </div>
 
@@ -202,7 +243,7 @@ const[navOpen, setNavOpen]  = useState(false);
 
     <div className="bignav">
             <div id="left">
-               <img src={copyright} alt="copyright logo" />
+               <img src={copyright1} alt="copyright logo" />
                <a href="#Hero"><h1>Anshul sharma</h1></a>
             </div>
             <div id="right">

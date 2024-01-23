@@ -1,7 +1,7 @@
 'use client';
 import './App.css';
 import React, { useEffect } from 'react'
-import Hero from "./Components/Hero/Hero"
+import Hero from "./Components/Hero/Hero2"
 import Nav from "./Components/Header/Nav"
 import About from "./Components/About/About"
 import Project from './Components/Project/Project';
