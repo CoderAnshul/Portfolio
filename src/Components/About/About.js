@@ -196,19 +196,19 @@ const About = () => {
         </div>
 
         <span>
-          <h4 className="pText">Hey, I'm Anshul, based in Gwalior, India. I have been doing web</h4>
+          <h4 className="pText">Hello there, I'm Anshul Sharma a <span id="paratext">front-end developer.</span>Over the</h4>
           </span>
         <span>
-          <h4 className="pText">development for the past few years, and in these years, I have</h4>
+          <h4 className="pText">past few years, I have developed websites, and in that time, I have</h4>
           </span>
         <span>
-          <h4 className="pText">learned a lot about web development and myself as well. And one</h4>
+          <h4 className="pText">discovered a lot about both web development and myself. I'm</h4>
           </span>
         <span>
-          <h4 className="pText">of them is that I like working with people :) it cheers me up. So to</h4>
+          <h4 className="pText">eager to put what I've learned into practice with you and make a</h4>
           </span>
         <span>
-          <h4 className="pText">continue this, I'm really looking forward to working with you.</h4>
+          <h4 className="pText"> significant impact on the digital landscape.</h4>
           </span>
        
       </div>

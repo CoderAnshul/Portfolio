@@ -122,7 +122,7 @@
 }
 .about-me span{
     height: 3.5vw;
-    width: 95%;
+    width: 100%;
     overflow: hidden;
     /* background-color: red; */
     flex-shrink:unset;
@@ -134,6 +134,11 @@
     width: 100%;
     font-weight: 300;
     color: #171717;
+    letter-spacing: -0.10                                                                                                        vw;
+}
+.about-me h4 #paratext{
+    color: #797952;
+    font-weight: 500;
 }
 
 @media (max-width : 480px){
