@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import image from "../../Images/hero-img.webp";
+import image from "../../Images/herobg-2.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import gsap from "gsap";
@@ -9,38 +9,10 @@ import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Hero = () => {
+const Hero2 = () => {
   useEffect(() => {
-    gsap.fromTo(
-      ".hero-container span h1 ",
-      {
-        y: 100,
-        opacity: 0,
-        skewY: 1,
-      },
-      {
-        y: 0,
-        opacity: 1,
-        stagger: 0.3,
-        duration: 1.1,
-        skewY: 0,
-      }
-    );
-    gsap.fromTo(".hero-container",
-    {
-      y:0
-    },
-    {
-      y:-70,
-      scrollTrigger:{
-        trigger:".hero-container",
-        scroller:"body",
-        // markers:true,
-        start:"top 58%",
-        end:"top -20%",
-        scrub:1
-      }
-    })
+    
+    
     gsap.fromTo(
       ".social-icon a .icon",
       {
@@ -63,24 +35,46 @@ const Hero = () => {
         stagger: 0.1,
       }
     );
-    gsap.fromTo(
-      ".hero-section .me",
-      {
-        scale: 1.25,
-        opacity: 0,
-      },
-      {
-        scale: 1.35,
-        duration: 1.5,
-        opacity: 1,
-      }
-    );
+    gsap.fromTo(".bgcont",
+    {
+       y:0,
+       scale: 1,
+    },
+    {
+       y:100,
+       scale: 1.1,
+       duration:1,
+       boxShadow:"0px 10px 35px rgba(23,23,23)",
+       scrollTrigger:{
+          trigger:" .bgcont",
+          scroller:"body",
+          // markers:true,
+          start:"top 18%",
+          end:"top -50%",
+          scrub:1
+       }
+    })
+    gsap.fromTo(".hero-section .social-icon , .hero-section .scroll",
+    {
+       y:0,
+    },
+    {
+       y:-100,
+       duration:1,
+       scrollTrigger:{
+          trigger:".bgcont",
+          scroller:"body",
+          // markers:true,
+          start:"top 18%",
+          end:"top -50%",
+          scrub:1
+       }
+    })
   });
 
   return (
     <div id="Hero" className="hero-section">
-      <div className="hero-container">
-        {/* <span>F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>-</span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span> */}
+      {/* <div className="hero-container">
         <span className="heroText">
           <h1>Front-End Developer</h1>
         </span>
@@ -92,11 +86,13 @@ const Hero = () => {
         <span className="heroText">
           <h1>Designer</h1>
         </span>
-      </div>
+      </div> */}
 
       {/* <img className='me' src="./Images/hero-img.png" alt="" /> */}
       {/* <img className='me' src={require("../../Images/hero-img.png")} alt="" /> */}
-      <img className="me" src={image} alt="" />
+      <div className="bgcont">
+      <img className="img" src={image} alt="" />
+      </div>
 
       <div className="social-icon">
         <a
@@ -123,4 +119,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero2;
