@@ -68,7 +68,7 @@ function App() {
       <div className="custom-cursor"></div>
       <Nav  />
       <Hero  />
-      <About />
+      <About  />
       <Project />
       <Skills />
       <Footer />

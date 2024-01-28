@@ -15,6 +15,7 @@
     flex-direction: column;
     padding: 2.9vw;
     background-color: #171717;
+    border-radius: 22px;
 }
 .projectHeading{
     height: 22vh;
