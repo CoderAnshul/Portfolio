@@ -36,6 +36,20 @@ const Hero2 = () => {
       }
     );
     gsap.fromTo(".bgcont",
+      {
+        scale:0.88,
+        y:50,
+        opacity:0
+      },
+      {
+        opacity:1,
+        y:0,
+        scale:1,
+        duration: 1.5,
+        stagger: 0.1,
+      }
+    );
+    gsap.fromTo(".bgcont",
     {
        y:0,
        scale: 1,
