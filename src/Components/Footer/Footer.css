@@ -1,5 +1,5 @@
 .footer{
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
     box-sizing: border-box;
     /* display: flex; */
@@ -303,7 +303,7 @@
     }
     .footer-container-three h4{
         font-size: 3.5vw;
-        font-weight: 100;
+        font-weight: 400;
     }
 }
 
